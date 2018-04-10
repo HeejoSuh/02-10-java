@@ -14,7 +14,7 @@ import java.util.EmptyStackException;
 
 //****************************************************************************
 
-public class Vehicle {
+public abstract class Vehicle {
 	//This is the class definition for a vehicle
 
 	
@@ -28,7 +28,7 @@ public class Vehicle {
 	 * 
 	 * private-----------
 	 * The class/variable/method is accessible and available within 
-	 * this class only. Used for ìbackgroundî work inside of the class
+	 * this class only. Used for ‚Äúbackground‚Äù work inside of the class
 	 * 
 	 * protected--------
 	 * Any code inside of the class can see them, but no outside object can use them. 
